@@ -6,14 +6,17 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class TestTriangle {
-	
+public Triangle triangle;
 	@Before
-	
+	public void before() {
+		triangle = new Triangle(4);
+	}
 	
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testcalculatePerimetro() {
+		assertEquals(12, triangle.calculatePerimetro(),0.10);
+		
 	}
 
 }
