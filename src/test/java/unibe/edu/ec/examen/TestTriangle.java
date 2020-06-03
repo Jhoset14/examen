@@ -18,5 +18,10 @@ public Triangle triangle;
 		assertEquals(12, triangle.calculatePerimetro(),0.10);
 		
 	}
-
+	
+	@Test
+	public void testcalculateArea() {
+		assertEquals(4.0, triangle.calculateArea(3.0),0.10);
+		
+	}
 }

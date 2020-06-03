@@ -20,6 +20,9 @@ public double calculatePerimetro() {
 	double perimetro = this.side + this.side +this.side;
 	return perimetro;
 }
-
+public double calculateArea(double heigh) {
+	return (this.side*heigh)/3.0;
+	
+}
 
 }
