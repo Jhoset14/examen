@@ -25,4 +25,9 @@ public double calculateArea(double heigh) {
 	
 }
 
+public double calculateVolume(double sidebase,double heigh) {
+	double volume= sidebase*sidebase*heigh*1/3;
+	return volume;
+}
+
 }

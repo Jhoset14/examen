@@ -24,4 +24,10 @@ public Triangle triangle;
 		assertEquals(4.0, triangle.calculateArea(3.0),0.10);
 		
 	}
+	
+	@Test
+	public void testcalculateVolume() {
+		assertEquals(4.0, triangle.calculateVolume();
+		
+	}
 }
